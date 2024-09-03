@@ -7,7 +7,7 @@ def speak(text):
     en.runAndWait()
 
 
-API_KEY='AIzaSyAk_TxZRPcsCoAGfrx2G_GYCqejSoUhHrY'
+API_KEY='api-key'  #generate your own api key
 ai.configure(api_key=API_KEY)
 model=ai.GenerativeModel("gemini-pro")
 chat= model.start_chat()
